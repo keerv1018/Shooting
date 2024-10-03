@@ -1,0 +1,1 @@
+The game has a spaceship and it landed on a planet. The spaceship has to kill the aliens in the planet. By comparing the kills with best score till then, the score will increase and at last it will be displayed after the game ends. 

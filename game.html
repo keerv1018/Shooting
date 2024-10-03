@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            shooting
+        </title>
+        <link rel="stylesheet" href="spy2.css">
+    </head>
+    
+    <body>
+        
+        <div id="startgame">
+            <h1>SPACE SHOOTING</h1>
+            <div style="margin-bottom: 100px;"></div>
+            <div id="score"></div>
+            <div style="margin-bottom: 50px;"></div>
+            <div id="highscore"></div>
+            <div style="margin-bottom: 50px;"></div>
+            <div id="startbutton">
+                <button id="start">StartGame</button>
+                <button id="tryagain">TRY AGAIN</button>
+            </div>
+            <ul id="instructions">
+                <li>INSTRUCTIONS :</li>
+                <div style="margin-bottom: 10px;"></div>
+                <li>👉The spaceship is on one of the planet, In that planet the whitespikes alines will be there.</li><br>
+                <li>👉The spaceship can move in All direction by the arrow keys.</li><br>
+                <li>👉The spaceShip can stop moving by click on SpaceBar.</li><br>
+                <li>👉To kill the alines click on screen or mouse to the direction of aliens to eject the bomb from spaceship in that direction.</li><br>
+                <li>👉If the spaceship enters the outer region of screen on left side or right side THE GAME ENDS.</li><br>
+                <li>👉If the spaceship enters the outer region of screen on top side or bottom side The spaceship enters from other side of a screen.</li><br>
+            </ul>
+        </div>
+        <audio id="music" src="shootmusic.mp3"></audio>
+        <audio id="music2" src="fire.wav"></audio>
+        
+        <canvas id="game"></canvas>
+        <script src="spy2.js"></script>
+    </body>
+</html>
